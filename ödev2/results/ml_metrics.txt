@@ -1,0 +1,21 @@
+IMDb Sentiment Analysis - Klasik ML Model Performans Metrikleri
+============================================================
+
+Model: Logistic Regression
+Özellik Çıkarımı: TF-IDF
+
+METRİKLER:
+Accuracy:  0.8753 (87.53%)
+Precision: 0.8717 (87.17%)
+Recall:    0.8802 (88.02%)
+F1-Score:  0.8759 (87.59%)
+
+SÜRE:
+Eğitim Süresi: 0.33 saniye
+Toplam Süre: 43.18 saniye
+
+TF-IDF Parametreleri:
+  - max_features: 5000
+  - ngram_range: (1, 2)
+  - min_df: 2
+  - max_df: 0.95

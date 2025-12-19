@@ -1,0 +1,23 @@
+IMDb Sentiment Analysis - LSTM Model Performans Metrikleri
+============================================================
+
+Model: LSTM (Long Short-Term Memory)
+Özellik Çıkarımı: Embedding Layer
+
+METRİKLER:
+Accuracy:  0.8211 (82.11%)
+Precision: 0.8624 (86.24%)
+Recall:    0.7641 (76.41%)
+F1-Score:  0.8103 (81.03%)
+
+SÜRE:
+Eğitim Süresi: 1316.94 saniye
+Toplam Süre: 1366.26 saniye
+
+MODEL PARAMETRELERİ:
+  - vocab_size: 10000
+  - max_length: 200
+  - embedding_dim: 128
+  - LSTM units: 128
+  - Batch size: 64
+  - Epochs: 10

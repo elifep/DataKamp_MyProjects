@@ -1,0 +1,43 @@
+IMDb Sentiment Analysis - Model Performans Metrikleri
+============================================================
+
+Accuracy:  0.8753
+Precision: 0.8717
+Recall:    0.8802
+F1-Score:  0.8759
+
+============================================================
+Model: Logistic Regression
+Özellik Çıkarımı: TF-IDF
+TF-IDF Parametreleri:
+  - max_features: 5000
+  - ngram_range: (1, 2)
+  - min_df: 2
+  - max_df: 0.95
+
+
+============================================================
+ÖRNEK CÜMLE TAHMİNLERİ
+============================================================
+
+Cümle: This movie was absolutely amazing! I loved every minute of it.
+Tahmin: Positive (Güven: 81.99%)
+
+Cümle: This movie was boring and slow. I fell asleep halfway through.
+Tahmin: Negative (Güven: 97.68%)
+
+Cümle: The acting was terrible and the plot made no sense.
+Tahmin: Negative (Güven: 97.39%)
+
+Cümle: One of the best films I have ever seen. Highly recommended!
+Tahmin: Positive (Güven: 99.20%)
+
+Cümle: Waste of time. The story was confusing and the characters were flat.
+Tahmin: Negative (Güven: 99.41%)
+
+Cümle: Brilliant cinematography and outstanding performances by all actors.
+Tahmin: Positive (Güven: 95.47%)
+
+Cümle: I was disappointed with this film. It didn't live up to the hype.
+Tahmin: Negative (Güven: 86.85%)
+
